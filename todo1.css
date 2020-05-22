@@ -1,0 +1,72 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+.header{
+    background-color:dodgerblue;
+    color:red;
+    height: 90px;
+   
+}
+.headerlogo{
+    font-size: 36px;
+    font-style: italic;    
+    padding:20px 40px;
+    float:left;
+}
+.headerlist li{
+    font-size: 20px;
+    list-style: none;
+    float:left;
+    padding:35px 20px;
+}
+.content{
+    background-color:yellowgreen;
+    height: 1040px;
+}
+.content div{
+    width:25%;
+    float:left;
+}
+.content img{
+    height: 200px;
+    width: 300px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contactform{
+    padding-top:100px;
+}
+.contactsubmit{
+    background-color:#dee7ec;
+    color:#889eab;
+}
+input,textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #deefec;
+}
+.footer{
+    background-color: dodgerblue;
+    height:300px;
+}
+.footerlist li{
+    list-style: none;
+    padding:35px 20px;
+}
+.footerlist{
+    float: right;
+   
+}
+.footerlogo{
+    float: left;
+    padding:20px 40px;
+}
