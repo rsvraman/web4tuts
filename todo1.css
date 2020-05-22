@@ -15,12 +15,17 @@ form, input, div {
     font-size: 36px;
     font-style: italic;    
     padding:20px 40px;
-    float:left;
+    text-align: center;
+    
 }
-.headerlist li{
+.about{
     font-size: 20px;
-    list-style: none;
     float:left;
+    padding:35px 20px;
+}
+.login{
+    font-size: 20px;
+    float:right;
     padding:35px 20px;
 }
 .content{
@@ -53,20 +58,4 @@ input,textarea{
     padding:20px;
     font-size:18px;
     border:1px solid #deefec;
-}
-.footer{
-    background-color: dodgerblue;
-    height:300px;
-}
-.footerlist li{
-    list-style: none;
-    padding:35px 20px;
-}
-.footerlist{
-    float: right;
-   
-}
-.footerlogo{
-    float: left;
-    padding:20px 40px;
 }
